@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #e3f2fd;
+}
+
+.img-logo-nav{
+    width: 30px;
+    height: 27px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-to-button{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+
+.align-links{
+    padding-top: 3px;
+}
+
+.logo{
+    display: flex;
+
+}
+
+.container-fluid{
+    flex-direction: row;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
