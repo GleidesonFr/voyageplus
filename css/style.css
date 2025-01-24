@@ -81,6 +81,7 @@ svg{
     border-radius: 10px;
     text-align: center;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -105,6 +106,10 @@ svg{
 .card-body{
     display: flex;
     flex-direction: column;
+}
+
+.card-image{
+    background-image: none;
 }
 
 @media (max-width: 991px) {
